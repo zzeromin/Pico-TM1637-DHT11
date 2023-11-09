@@ -16,3 +16,34 @@ sleep(1)
 
 display.write(pattern,2)
 sleep(1)
+
+# Word
+display.show("AbCd")
+sleep(1)
+ 
+#Clear all
+display.show("    ")
+sleep(1)
+ 
+#Numbers
+display.number(1234)
+sleep(1)
+ 
+#Time with colon
+display.numbers(10,40)
+sleep(1)
+ 
+#Lower Brightness
+display.brightness(0)
+sleep(1)
+ 
+#Scrolling text
+display.scroll("SCrOLL", delay=500)
+sleep(1)
+ 
+#Temperature
+display.temperature(37)
+sleep(1)
+ 
+#Clear all
+display.show("    ")
